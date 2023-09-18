@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Reaction",
+        "score": 80,
+        "icon": "./assets/icon-reaction.svg"
+    },
+    {
+        "name": "Memory",
+        "score": 92,
+        "icon": "./assets/icon-memory.svg"
+    },
+    {
+        "name": "Verbal",
+        "score": 61,
+        "icon": "./assets/icon-verbal.svg"
+    },
+    {
+        "name": "Visual",
+        "score": 72,
+        "icon": "./assets/icon-visual.svg"
+    }
+]

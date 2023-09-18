@@ -1,0 +1,62 @@
+.result {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    padding: 1.5rem 3rem 2.4rem 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    border-radius: 0 0 2rem 2rem;
+}
+
+h1 {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.circle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    padding: 1.6rem 2.6rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle p:last-of-type {
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.big-number {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: white;
+}
+
+.adjective {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 575px) {
+    .result {
+        border-radius: 2rem;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    .big-number {
+        font-size: 4rem;
+    }
+
+    .circle {
+        padding: 2rem 3rem;
+    }
+}
